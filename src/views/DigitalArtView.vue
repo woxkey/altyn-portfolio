@@ -72,7 +72,7 @@
 
 .items {
   display: flex;
-  gap: 20px;
+  gap: 34px;
   flex-direction: column;
 }
 </style>
