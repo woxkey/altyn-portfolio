@@ -1,60 +1,46 @@
 <script setup></script>
 
 <template>
-  <div class="home-bg">
-    <div class="home-container">
-      <div class="home-view">
-        <div class="name-container">
-          <div class="home-view__name">Altynay Nurmakhanova’s</div>
-          <img class="main-star" src="/mainStar.svg" alt="" />
-          <img class="secondary-star" src="/secondaryStar.svg" alt="" />
-        </div>
-        <div class="portfolio">Portfolio:</div>
-        <div class="home-view__items">
-          <div class="rectangle">
-            <RouterLink to="/digital-art">
-              <div class="home-view__item">
-                <img src="/digitalArtMain.png" alt="" />
-                <div class="home-view__itemText">Digital Art</div>
-                <div class="digital-bg"></div>
-              </div>
-            </RouterLink>
+  <div class="home-view">
+    <div class="name-container">
+      <div class="home-view__name">Altynay Nurmakhanova’s</div>
+      <img class="main-star" src="/mainStar.svg" alt="" />
+      <img class="secondary-star" src="/secondaryStar.svg" alt="" />
+    </div>
+    <div class="portfolio">Portfolio:</div>
+    <div class="home-view__items">
+      <div class="rectangle">
+        <RouterLink to="/digital-art">
+          <div class="home-view__item">
+            <img src="/digitalArtMain.png" alt="" />
+            <div class="home-view__itemText">Digital Art</div>
+            <div class="digital-bg"></div>
           </div>
-          <div class="green-rect">
-            <RouterLink to="/uiux-design">
-              <div class="home-view__item">
-                <img src="/uidesignMain.png" alt="" />
-                <div class="home-view__itemText">UI/UX Design</div>
-                <div class="design-bg"></div>
-              </div>
-            </RouterLink>
+        </RouterLink>
+      </div>
+      <div class="green-rect">
+        <RouterLink to="/uiux-design">
+          <div class="home-view__item">
+            <img src="/uidesignMain.png" alt="" />
+            <div class="home-view__itemText">UI/UX Design</div>
+            <div class="design-bg"></div>
           </div>
-          <div class="orange-rect">
-            <RouterLink to="/galleon-newspaper">
-              <div class="home-view__item">
-                <img src="/galleonNewspaperMain.png" alt="" />
-                <div class="home-view__itemText">Galleon Newspaper</div>
-                <div class="galleon-bg"></div>
-              </div>
-            </RouterLink>
+        </RouterLink>
+      </div>
+      <div class="orange-rect">
+        <RouterLink to="/galleon-newspaper">
+          <div class="home-view__item">
+            <img src="/galleonNewspaperMain.png" alt="" />
+            <div class="home-view__itemText">Galleon Newspaper</div>
+            <div class="galleon-bg"></div>
           </div>
-        </div>
+        </RouterLink>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.home-bg {
-  background-color: #fffaf2;
-  height: 100vh;
-}
-
-.home-container {
-  display: flex;
-  justify-content: center;
-}
-
 .home-view {
   padding-top: 84px;
   display: flex;
