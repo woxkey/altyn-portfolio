@@ -1,5 +1,7 @@
 <script setup>
 import image from '../../public/digitalArtMain.png'
+import uidesignMain from '../../public/uidesignMain.png'
+import galleonNewspaperMain from '../../public/galleonNewspaperMain.png'
 </script>
 
 <template>
@@ -12,16 +14,9 @@ import image from '../../public/digitalArtMain.png'
     <div class="portfolio">Portfolio:</div>
     <div class="home-view__items">
       <div class="rectangle">
-        <div class="home-view__item">
-          <img :src="image" alt="" />
-          <!-- <div class="home-view__itemText">Digital Art</div>
-          <div class="digital-bg"></div> -->
-        </div>
-      </div>
-      <div class="rectangle">
         <RouterLink to="/digital-art">
           <div class="home-view__item">
-            <img src="/digitalArtMain.png" alt="" />
+            <img :src="image" alt="" />
             <div class="home-view__itemText">Digital Art</div>
             <div class="digital-bg"></div>
           </div>
@@ -30,7 +25,7 @@ import image from '../../public/digitalArtMain.png'
       <div class="green-rect">
         <RouterLink to="/uiux-design">
           <div class="home-view__item">
-            <img src="/uidesignMain.png" alt="" />
+            <img :src="uidesignMain" alt="" />
             <div class="home-view__itemText">UI/UX Design</div>
             <div class="design-bg"></div>
           </div>
@@ -39,7 +34,7 @@ import image from '../../public/digitalArtMain.png'
       <div class="orange-rect">
         <RouterLink to="/galleon-newspaper">
           <div class="home-view__item">
-            <img src="/galleonNewspaperMain.png" alt="" />
+            <img :src="galleonNewspaperMain" alt="" />
             <div class="home-view__itemText">Galleon Newspaper</div>
             <div class="galleon-bg"></div>
           </div>
