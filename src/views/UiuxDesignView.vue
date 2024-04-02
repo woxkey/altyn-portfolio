@@ -8,7 +8,7 @@
     <hr class="line" />
     <div class="items">
       <div class="rectangle">
-        <img src="/design1.svg" alt="" />
+        <img src="/design1.png" alt="" />
       </div>
       <div class="rectangle">
         <img src="/design2.png" alt="" />
