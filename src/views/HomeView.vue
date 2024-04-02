@@ -10,6 +10,13 @@
     <div class="portfolio">Portfolio:</div>
     <div class="home-view__items">
       <div class="rectangle">
+        <div class="home-view__item">
+          <img src="/digitalArtMain.png" alt="" />
+          <div class="home-view__itemText">Digital Art</div>
+          <div class="digital-bg"></div>
+        </div>
+      </div>
+      <div class="rectangle">
         <RouterLink to="/digital-art">
           <div class="home-view__item">
             <img src="/digitalArtMain.png" alt="" />
